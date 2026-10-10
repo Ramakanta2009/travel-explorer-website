@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Travel Explorer</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f8f9;
+        }
+
+        header {
+            background-color: #087f8c;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #055c63;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 30px;
+        }
+
+        .place,
+        .hotel {
+            background-color: white;
+            display: inline-block;
+            width: 28%;
+            margin: 15px;
+            padding: 15px;
+            vertical-align: top;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px gray;
+        }
+
+        .place:hover,
+        .hotel:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        .place img,
+        .hotel img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            justify-content: center;
+            align-items: center;            
+        }
+
+        h2 {
+            color: #087f8c;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #055c63;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .button {
+            background-color: #087f8c;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+        <h1>🌍 Travel Explorer</h1>
+        <p>Discover Beautiful Places Around the World</p>
+    </header>
+
+
+    <!-- NAVIGATION -->
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#places">Tourist Places</a>
+        <a href="#hotels">Hotels</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+
+    <!-- HOME -->
+
+    <section id="home">
+
+        <h2>Welcome to Travel Explorer</h2>
+
+        <p style="text-align:center;">
+            Explore amazing destinations, discover beautiful places,
+            find comfortable hotels and plan your next adventure.
+        </p>
+
+        <h3>✈️ Start Your Journey</h3>
+
+        <p>
+            Whether you love beaches, mountains, historical places or
+            modern cities, Travel Explorer helps you discover your
+            next destination.
+        </p>
+
+    </section>
+
+
+    <!-- TOURIST PLACES -->
+
+    <section id="places">
+
+        <h2>🏝️ Popular Tourist Places</h2>
+
+        <!-- Place 1 -->
+
+        <div class="place">
+
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beautiful Beach">
+
+            <h3>🏖️ Goa</h3>
+
+            <p>
+                Goa is famous for its beautiful beaches, nightlife,
+                Portuguese architecture and delicious food.
+            </p>
+
+            <p><b>Best Time:</b> November - February</p>
+
+            <a href="#" class="button">Explore</a>
+
+        </div>
+
+
+        <!-- Place 2 -->
+
+        <div class="place">
+
+            <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa" alt="Mountain">
+
+            <h3>🏔️ Manali</h3>
+
+            <p>
+                Manali is a beautiful mountain destination known for
+                snow, valleys, adventure activities and nature.
+            </p>
+
+            <p><b>Best Time:</b> October - June</p>
+
+            <a href="#" class="button">Explore</a>
+
+        </div>
+
+
+        <!-- Place 3 -->
+
+        <div class="place">
+
+            <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523" alt="Taj Mahal">
+
+            <h3>🕌 Agra</h3>
+
+            <p>
+                Agra is home to the Taj Mahal, one of India's most
+                famous historical monuments.
+            </p>
+
+            <p><b>Best Time:</b> October - March</p>
+
+            <a href="#" class="button">Explore</a>
+
+        </div>
+
+    </section>
+
+
+    <!-- HOTELS -->
+
+    <section id="hotels">
+
+        <h2>🏨 Recommended Hotels</h2>
+
+        <!-- Hotel 1 -->
+
+        <div class="hotel">
+
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945" alt="Luxury Hotel">
+
+            <h3>⭐ Ocean View Resort</h3>
+
+            <p>📍 Goa</p>
+
+            <p>
+                Beautiful hotel near the beach with comfortable rooms
+                and excellent views.
+            </p>
+
+            <p><b>Rating:</b> ⭐⭐⭐⭐⭐</p>
+
+            <p><b>Price:</b> ₹4,500 / night</p>
+
+            <a href="#" class="button">View Hotel</a>
+
+        </div>
+
+
+        <!-- Hotel 2 -->
+
+        <div class="hotel">
+
+            <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7" alt="Mountain Hotel">
+
+            <h3>⭐ Mountain Paradise</h3>
+
+            <p>📍 Manali</p>
+
+            <p>
+                A peaceful hotel surrounded by beautiful mountains
+                and nature.
+            </p>
+
+            <p><b>Rating:</b> ⭐⭐⭐⭐</p>
+
+            <p><b>Price:</b> ₹3,200 / night</p>
+
+            <a href="#" class="button">View Hotel</a>
+
+        </div>
+
+
+        <!-- Hotel 3 -->
+
+        <div class="hotel">
+
+            <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb" alt="Luxury Hotel">
+
+            <h3>⭐ Royal Palace Hotel</h3>
+
+            <p>📍 Agra</p>
+
+            <p>
+                A comfortable hotel located close to major tourist
+                attractions.
+            </p>
+
+            <p><b>Rating:</b> ⭐⭐⭐⭐⭐</p>
+
+            <p><b>Price:</b> ₹3,800 / night</p>
+
+            <a href="#" class="button">View Hotel</a>
+
+        </div>
+
+    </section>
+
+
+    <!-- GALLERY -->
+
+    <section id="gallery">
+
+        <h2>📸 Travel Gallery</h2>
+
+        <p style="text-align:center;">
+            Beautiful memories from different destinations.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" width="30%" height="200" alt="Beach">
+
+        <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa" width="30%" height="200" alt="Mountains">
+
+        <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523" width="30%" height="200"
+            alt="Taj Mahal">
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+        <h2>📞 Contact Us</h2>
+
+        <fieldset>
+
+            <form>
+
+                <label>Name:</label><br>
+                <input type="text" placeholder="Enter your name">
+
+                <br><br>
+
+                <label>Email:</label><br>
+                <input type="email" placeholder="Enter your email">
+
+                <br><br>
+
+                <label>Destination:</label><br>
+
+                <select>
+                    <option>Goa</option>
+                    <option>Manali</option>
+                    <option>Agra</option>
+                </select>
+
+                <br><br>
+
+                <label>Message:</label><br>
+
+                <textarea rows="5" cols="40" placeholder="Write your message">
+            </textarea>
+
+                <br><br>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </fieldset>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h3>🌍 Travel Explorer</h3>
+
+        <p>Explore • Discover • Travel • Enjoy</p>
+
+        <p>© 2026 Travel Explorer. All Rights Reserved.</p>
+
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
